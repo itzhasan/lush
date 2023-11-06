@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  position: sticky;
+  top: 0;
+  background-image: url("../assets/st1background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+}
+
+header ul li{
+  margin-left: 20px;
+}
+
+header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+header .first_content{
+  align-items: center;
+
+}
